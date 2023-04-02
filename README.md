@@ -20,4 +20,5 @@ The Universal Sentense Encoder (USE) model for English is used to vectorize text
 
 Datasets:
 Google Speech Command Dataset: https://ai.googleblog.com/2017/08/launching-speech-commands-dataset.html
+
 LibriSpeech: https://www.openslr.org/12

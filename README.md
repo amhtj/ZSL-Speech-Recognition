@@ -17,3 +17,7 @@ The results are very positive, since the testing was conducted on classes that d
 Libraries and technologies: 
 PyTorch, NumPy, cuDNN library and CUDA technology are used. Information from hidden layers of NVIDIA's pre-trained Jasper acoustic model is used to extract features and generate vector representations of sounds and texts. 
 The Universal Sentense Encoder (USE) model for English is used to vectorize text annotations. Also Spotify's Annoying library is used to store lists of words and sentences in the form of matrices. 
+
+Datasets:
+Google Speech Command Dataset: https://ai.googleblog.com/2017/08/launching-speech-commands-dataset.html
+LibriSpeech: https://www.openslr.org/12

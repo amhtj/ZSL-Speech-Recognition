@@ -4,12 +4,13 @@ Zero-Shot Learning is the formulation of a machine learning problem when models 
 
 My generative models (VAE, GAN) create signal characteristics determined by semantic attributes of a certain class.
 
-As an example of the results, the confusion matrix for the GAN model, tested on the Google Speech Command dataset. Basically, words like "left", "down", "stop" were incorrectly recognized. The percentage of errors on WER for GAN on the test showed 26%, SEP - 46%. 
+As an example of the results, the confusion matrix for the GAN model, tested on the Google Speech Command dataset. Basically, words like "left", "down", "stop" were incorrectly recognized. The percentage of errors on WER for GAN on the test showed 26%, SEP - 46%: 
 
-![](/posts/path/to/confusion_matrix_GAN.png)
+<img src="/confusion_matrix_GAN.png" alt="Alt text">
 
+The percentage of errors for VAE on the LibriSpeech dataset was 21.89% WER and 53.5 SER on the test. An example of the result of the work of VAE:
 
-The percentage of errors for VAE on the LibriSpeech dataset was 21.89% WER and 53.5 SER on the test. 
+<img src="/result_LS_VAE.png" alt="Alt text">
 
 The results are very positive, since the testing was conducted on classes that did not participate in the learning process. The models had only their semantic attributes.
  
